@@ -5578,6 +5578,11 @@ react-native-gradle-plugin@^0.70.3:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz#cbcf0619cbfbddaa9128701aa2d7b4145f9c4fc8"
   integrity sha512-oOanj84fJEXUg9FoEAQomA8ISG+DVIrTZ3qF7m69VQUJyOGYyDZmPqKcjvRku4KXlEH6hWO9i4ACLzNBh8gC0A==
 
+react-native-marketingcloudsdk@^7.5.2:
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/react-native-marketingcloudsdk/-/react-native-marketingcloudsdk-7.5.2.tgz#51e1d9be300dfa6880ebd22f7f7fd7b0bbd7c092"
+  integrity sha512-0prMZ0ALoGSuZhynSRYPpVHZ1Ze2xqj7XKPgY3H5+ycKwFJx8ehp/s5I8LzlY6NCxFr/gy2kaBzNgOsB5rjqog==
+
 react-native@0.70.5:
   version "0.70.5"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.70.5.tgz#f60540b21d338891086e0a834e331c124dd1f55c"
