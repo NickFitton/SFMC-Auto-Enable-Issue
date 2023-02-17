@@ -34,6 +34,11 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 {
 
   MarketingCloudSDKConfigBuilder *mcsdkBuilder = [MarketingCloudSDKConfigBuilder new];
+  [mcsdkBuilder sfmc_setApplicationId:@"omitted-for-privacy"];
+  [mcsdkBuilder sfmc_setAccessToken:@"omitted-for-privacy"];
+  [mcsdkBuilder sfmc_setMarketingCloudServerUrl:@"omitted-for-privacy"];
+  [mcsdkBuilder sfmc_setAnalyticsEnabled:@(NO)];
+  [mcsdkBuilder sfmc_setDelayRegistrationUntilContactKeyIsSet:@(YES)];
 
   NSError *error = nil;
   BOOL success =
